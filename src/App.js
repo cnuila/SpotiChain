@@ -1,10 +1,10 @@
 import Agregar from "./Components/Agregar"
 import LogIn from "./Components/LogIn"
-
+import Principal from "./Components/Principal"
 function App() {
   return (
     <div className="App">
-      <Agregar/>
+      <Principal/>
     </div>
   );
 }
