@@ -47,8 +47,8 @@ export default function LogIn() {
     }
 
     const diseñoLogIn = (<form onSubmit={handleOnSubmit}>
-        <input id="email" className="block w-full p-3 pl-5 mt-6 rounded-3xl text-gray-900 bg-gray-100 focus:outline-none focus:bg-gray-200 focus:shadow-inner" type="email" name="email" placeholder="Correo" autoComplete="email" required onChange={handleInputChange} />
-        <input id="psswd" className="block w-full p-3 pl-5 mt-6 rounded-3xl text-gray-900 bg-gray-100 focus:outline-none focus:bg-gray-200 focus:shadow-inner" type="password" name="psswd" placeholder="********" autoComplete="new-password" required onChange={handleInputChange} />
+        <input className="block w-full p-3 pl-5 mt-6 rounded-3xl text-gray-900 bg-gray-100 focus:outline-none focus:bg-gray-200 focus:shadow-inner" type="email" name="email" placeholder="Correo" autoComplete="email" required onChange={handleInputChange} />
+        <input className="block w-full p-3 pl-5 mt-6 rounded-3xl text-gray-900 bg-gray-100 focus:outline-none focus:bg-gray-200 focus:shadow-inner" type="password" name="psswd" placeholder="********" autoComplete="new-password" required onChange={handleInputChange} />
 
         <div className="flex bg-blue-900 hover:bg-blue-800 rounded-3xl mt-7 mb-2 h-12 w-full items-center shadow-lg cursor-pointer">
             <button type="submit" className="mx-1 text-center w-full text-sm font-semibold focus:outline-none text-white text-opacity-90">
