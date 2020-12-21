@@ -1,7 +1,7 @@
 import Agregar from "./Components/Agregar"
 import LogIn from "./Components/LogIn"
 import Principal from "./Components/Principal"
-import Cancion from "./Components/clickCancion"
+import Cancion from "./Components/ClickAlbum"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
