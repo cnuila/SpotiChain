@@ -20,10 +20,14 @@ export default class ListaAlbums extends Component {
     render() {
         return (
             <div className="w-full">
+                <div className="text-4xl text-white pt-8 ml-20 mr-20">
+                    Bienvenido, Roman
+                </div>
+
                 <div className="text-2xl text-white pt-8 ml-20 mr-20 border-b-2 border-gray-700">
                     Tus Albumes
                 </div>
-                        
+
                 <div className="p-8 grid grid-cols-4 gap-x-1 gap-y-8 place-items-center">
                     <div className="pb-8 h-60 w-60 cursor-pointer transform hover:scale-105 motion-reduce:transform-none duration-300">
                         <img className="h-full w-full object-cover rounded-lg shadow-md" alt="Album" src={mj} />
@@ -68,7 +72,17 @@ export default class ListaAlbums extends Component {
                 </div>
                 <div className="text-2xl text-white pt-8 ml-20 mr-20 border-b-2 border-gray-700">
                     Descubre otros artistas
-                        </div>
+                </div>
+                <div className="grid place-items-end mr-20">
+                    <div className="pt-3">
+                        <select class="w-64 h-8 bg-blue-900 rounded text-gray-200 focus:outline-none">
+                            <option >Artista ↑</option>
+                            <option >Artista ↓</option>
+                            <option >Album ↑</option>
+                            <option >Album ↓</option>
+                        </select>
+                    </div>
+                </div>
                 <div className="p-8 grid grid-cols-4 gap-x-1 gap-y-12 place-items-center">
                     <div className="pb-8 h-60 w-60 object-cover cursor-pointer transform hover:scale-105 motion-reduce:transform-none duration-500">
                         <img className="h-full w-full object-cover rounded-lg shadow-md" alt="Album" src={damn} />
