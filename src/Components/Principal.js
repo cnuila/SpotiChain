@@ -18,7 +18,7 @@ import pf from "../fotos/pf.jpg"
 import ran from "../fotos/ran.jpg"
 
 
-export default class Agregar extends Component {
+export default class Principal extends Component {
     render() {
         return (
             <div className="h-full w-full bg-gray-900">
@@ -44,6 +44,10 @@ export default class Agregar extends Component {
                                 </div>
                         </div>
                     </div>
+                
+
+
+
                     <div className="col-span-7">
                         <div className="text-2xl text-white pt-8 ml-20 mr-20 border-b-2 border-gray-700">
                             Tus Albumes
@@ -54,7 +58,7 @@ export default class Agregar extends Component {
                                 <div className="">
                                     <div className="pt-1 text-white text-base font-sans">
                                         Dreams
-                            </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="pb-8 h-60 w-60 object-cover cursor-pointer transform hover:scale-105 motion-reduce:transform-none duration-500">
