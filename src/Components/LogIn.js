@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useContext, useCallback } from 'react'
 import { auth } from '../firebase'
 import SignUp from './SignUp'
+import { Redirect } from "react-router";
+import {AuthContext} from "./Auth.js"
 
-export default function LogIn() {
+
+export default function LogIn({ history }) {
 
     const [logIn, setLogIn] = useState(true)
     const [info, setInfo] = useState({
@@ -10,32 +13,40 @@ export default function LogIn() {
         psswd: "",
     })
 
+    const handleLogin = useCallback(
+        
+        async event => {           
+            event.preventDefault();
+            try {
+                await auth.signInWithEmailAndPassword(info.email, info.psswd);
+                history.push("/");
+            } catch (error) {
+                let errorCode = error.code;
+                if (errorCode === "auth/wrong-password") {
+                    alert("Contraseña incorrecta")
+                }
+                if (errorCode === "auth/user-not-found") {
+                    alert("No te has registrado")
+                }else{
+                    alert(error);
+                }
+            }
+        },
+        [history]
+    );
+
+    const currentUser = useContext(AuthContext);
+
+    if (currentUser) {
+        return <Redirect to="/" />;
+    }
+
     const handleInputChange = ({ target }) => {
         const { name, value } = target
         setInfo({
             ...info,
             [name]: value,
         })
-    }
-
-    auth.signOut().then(() => {
-        console.log("cierro sesion")
-    })
-
-    const handleOnSubmit = (e) => {
-        e.preventDefault()
-        //promise que loggea a usuario
-        auth.signInWithEmailAndPassword(info.email, info.psswd).then((user) => {
-            console.log("inicio sesion")
-        }).catch((error) => {
-            let errorCode = error.code;
-            if (errorCode === "auth/wrong-password"){
-                alert("Contraseña incorrecta")
-            }
-            if (errorCode === "auth/user-not-found"){
-                alert("No te has registrado")
-            }          
-        });
     }
 
     const handleOnClickDiseño = tipo => {
@@ -46,7 +57,7 @@ export default function LogIn() {
         }
     }
 
-    const diseñoLogIn = (<form onSubmit={handleOnSubmit}>
+    const diseñoLogIn = (<form onSubmit={handleLogin}>
         <input id="email" className="block w-full p-3 pl-5 mt-6 rounded-3xl text-gray-900 bg-gray-100 focus:outline-none focus:bg-gray-200 focus:shadow-inner" type="email" name="email" placeholder="Correo" autoComplete="email" required onChange={handleInputChange} />
         <input id="psswd" className="block w-full p-3 pl-5 mt-6 rounded-3xl text-gray-900 bg-gray-100 focus:outline-none focus:bg-gray-200 focus:shadow-inner" type="password" name="psswd" placeholder="********" autoComplete="new-password" required onChange={handleInputChange} />
 
