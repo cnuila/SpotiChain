@@ -1904,6 +1904,424 @@ video {
   border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
 }
 
+.group:hover .group-hover\:divide-transparent > :not([hidden]) ~ :not([hidden]) {
+  border-color: transparent;
+}
+
+.group:hover .group-hover\:divide-current > :not([hidden]) ~ :not([hidden]) {
+  border-color: currentColor;
+}
+
+.group:hover .group-hover\:divide-black > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-white > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(249, 250, 251, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(209, 213, 219, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(107, 114, 128, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(75, 85, 99, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(55, 65, 81, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(31, 41, 55, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(17, 24, 39, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(254, 242, 242, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(254, 226, 226, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(254, 202, 202, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(252, 165, 165, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(248, 113, 113, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(239, 68, 68, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(220, 38, 38, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(185, 28, 28, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(153, 27, 27, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(127, 29, 29, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(255, 251, 235, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(254, 243, 199, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(253, 230, 138, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(252, 211, 77, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(251, 191, 36, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(245, 158, 11, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(217, 119, 6, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(180, 83, 9, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(146, 64, 14, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-yellow-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(120, 53, 15, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(236, 253, 245, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(209, 250, 229, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(167, 243, 208, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(110, 231, 183, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(52, 211, 153, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(16, 185, 129, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(5, 150, 105, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(4, 120, 87, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(6, 95, 70, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(6, 78, 59, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(239, 246, 255, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(219, 234, 254, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(191, 219, 254, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(147, 197, 253, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(96, 165, 250, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(59, 130, 246, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(37, 99, 235, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(29, 78, 216, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(30, 64, 175, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(30, 58, 138, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(238, 242, 255, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(224, 231, 255, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(199, 210, 254, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(165, 180, 252, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(129, 140, 248, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(99, 102, 241, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(79, 70, 229, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(67, 56, 202, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(55, 48, 163, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-indigo-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(49, 46, 129, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(245, 243, 255, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(237, 233, 254, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(221, 214, 254, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(196, 181, 253, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(167, 139, 250, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(139, 92, 246, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(124, 58, 237, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(109, 40, 217, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(91, 33, 182, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(76, 29, 149, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-50 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(253, 242, 248, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(252, 231, 243, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(251, 207, 232, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-300 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(249, 168, 212, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-400 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(244, 114, 182, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(236, 72, 153, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(219, 39, 119, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(190, 24, 93, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-800 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(157, 23, 77, var(--tw-divide-opacity));
+}
+
+.group:hover .group-hover\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
+}
+
 .divide-solid > :not([hidden]) ~ :not([hidden]) {
   border-style: solid;
 }
@@ -30915,6 +31333,424 @@ video {
     border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
   }
 
+  .group:hover .sm\:group-hover\:divide-transparent > :not([hidden]) ~ :not([hidden]) {
+    border-color: transparent;
+  }
+
+  .group:hover .sm\:group-hover\:divide-current > :not([hidden]) ~ :not([hidden]) {
+    border-color: currentColor;
+  }
+
+  .group:hover .sm\:group-hover\:divide-black > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(0, 0, 0, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-white > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 250, 251, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(107, 114, 128, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(75, 85, 99, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 65, 81, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(31, 41, 55, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(17, 24, 39, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 242, 242, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 226, 226, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 202, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 165, 165, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(248, 113, 113, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 68, 68, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(220, 38, 38, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(185, 28, 28, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(153, 27, 27, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(127, 29, 29, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 251, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 243, 199, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 230, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 211, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 191, 36, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 158, 11, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(217, 119, 6, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(180, 83, 9, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(146, 64, 14, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-yellow-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(120, 53, 15, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 253, 245, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 250, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 243, 208, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(110, 231, 183, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(52, 211, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(16, 185, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(5, 150, 105, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(4, 120, 87, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 95, 70, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 78, 59, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 246, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 234, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(191, 219, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(147, 197, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(96, 165, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(59, 130, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(37, 99, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(29, 78, 216, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 64, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 58, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(238, 242, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(224, 231, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(199, 210, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(165, 180, 252, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(129, 140, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(99, 102, 241, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(79, 70, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(67, 56, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 48, 163, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-indigo-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(49, 46, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 243, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(237, 233, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(221, 214, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(196, 181, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 139, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(124, 58, 237, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(109, 40, 217, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(91, 33, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(76, 29, 149, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 242, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 231, 243, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 207, 232, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 168, 212, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(244, 114, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 72, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 39, 119, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(190, 24, 93, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(157, 23, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
+  }
+
   .sm\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -59879,6 +60715,424 @@ video {
   }
 
   .md\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-transparent > :not([hidden]) ~ :not([hidden]) {
+    border-color: transparent;
+  }
+
+  .group:hover .md\:group-hover\:divide-current > :not([hidden]) ~ :not([hidden]) {
+    border-color: currentColor;
+  }
+
+  .group:hover .md\:group-hover\:divide-black > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(0, 0, 0, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-white > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 250, 251, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(107, 114, 128, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(75, 85, 99, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 65, 81, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(31, 41, 55, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(17, 24, 39, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 242, 242, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 226, 226, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 202, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 165, 165, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(248, 113, 113, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 68, 68, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(220, 38, 38, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(185, 28, 28, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(153, 27, 27, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(127, 29, 29, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 251, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 243, 199, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 230, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 211, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 191, 36, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 158, 11, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(217, 119, 6, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(180, 83, 9, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(146, 64, 14, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-yellow-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(120, 53, 15, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 253, 245, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 250, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 243, 208, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(110, 231, 183, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(52, 211, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(16, 185, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(5, 150, 105, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(4, 120, 87, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 95, 70, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 78, 59, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 246, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 234, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(191, 219, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(147, 197, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(96, 165, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(59, 130, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(37, 99, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(29, 78, 216, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 64, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 58, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(238, 242, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(224, 231, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(199, 210, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(165, 180, 252, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(129, 140, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(99, 102, 241, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(79, 70, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(67, 56, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 48, 163, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-indigo-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(49, 46, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 243, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(237, 233, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(221, 214, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(196, 181, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 139, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(124, 58, 237, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(109, 40, 217, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(91, 33, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(76, 29, 149, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 242, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 231, 243, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 207, 232, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 168, 212, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(244, 114, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 72, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 39, 119, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(190, 24, 93, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(157, 23, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .md\:group-hover\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
     border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
   }
@@ -88851,6 +90105,424 @@ video {
     border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
   }
 
+  .group:hover .lg\:group-hover\:divide-transparent > :not([hidden]) ~ :not([hidden]) {
+    border-color: transparent;
+  }
+
+  .group:hover .lg\:group-hover\:divide-current > :not([hidden]) ~ :not([hidden]) {
+    border-color: currentColor;
+  }
+
+  .group:hover .lg\:group-hover\:divide-black > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(0, 0, 0, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-white > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 250, 251, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(107, 114, 128, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(75, 85, 99, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 65, 81, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(31, 41, 55, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(17, 24, 39, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 242, 242, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 226, 226, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 202, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 165, 165, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(248, 113, 113, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 68, 68, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(220, 38, 38, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(185, 28, 28, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(153, 27, 27, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(127, 29, 29, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 251, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 243, 199, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 230, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 211, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 191, 36, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 158, 11, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(217, 119, 6, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(180, 83, 9, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(146, 64, 14, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-yellow-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(120, 53, 15, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 253, 245, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 250, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 243, 208, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(110, 231, 183, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(52, 211, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(16, 185, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(5, 150, 105, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(4, 120, 87, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 95, 70, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 78, 59, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 246, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 234, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(191, 219, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(147, 197, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(96, 165, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(59, 130, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(37, 99, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(29, 78, 216, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 64, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 58, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(238, 242, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(224, 231, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(199, 210, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(165, 180, 252, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(129, 140, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(99, 102, 241, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(79, 70, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(67, 56, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 48, 163, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-indigo-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(49, 46, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 243, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(237, 233, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(221, 214, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(196, 181, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 139, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(124, 58, 237, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(109, 40, 217, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(91, 33, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(76, 29, 149, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 242, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 231, 243, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 207, 232, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 168, 212, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(244, 114, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 72, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 39, 119, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(190, 24, 93, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(157, 23, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
+  }
+
   .lg\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -117819,6 +119491,424 @@ video {
     border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
   }
 
+  .group:hover .xl\:group-hover\:divide-transparent > :not([hidden]) ~ :not([hidden]) {
+    border-color: transparent;
+  }
+
+  .group:hover .xl\:group-hover\:divide-current > :not([hidden]) ~ :not([hidden]) {
+    border-color: currentColor;
+  }
+
+  .group:hover .xl\:group-hover\:divide-black > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(0, 0, 0, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-white > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 250, 251, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(107, 114, 128, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(75, 85, 99, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 65, 81, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(31, 41, 55, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(17, 24, 39, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 242, 242, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 226, 226, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 202, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 165, 165, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(248, 113, 113, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 68, 68, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(220, 38, 38, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(185, 28, 28, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(153, 27, 27, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(127, 29, 29, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 251, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 243, 199, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 230, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 211, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 191, 36, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 158, 11, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(217, 119, 6, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(180, 83, 9, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(146, 64, 14, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-yellow-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(120, 53, 15, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 253, 245, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 250, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 243, 208, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(110, 231, 183, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(52, 211, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(16, 185, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(5, 150, 105, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(4, 120, 87, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 95, 70, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 78, 59, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 246, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 234, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(191, 219, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(147, 197, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(96, 165, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(59, 130, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(37, 99, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(29, 78, 216, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 64, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 58, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(238, 242, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(224, 231, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(199, 210, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(165, 180, 252, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(129, 140, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(99, 102, 241, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(79, 70, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(67, 56, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 48, 163, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-indigo-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(49, 46, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 243, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(237, 233, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(221, 214, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(196, 181, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 139, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(124, 58, 237, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(109, 40, 217, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(91, 33, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(76, 29, 149, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 242, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 231, 243, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 207, 232, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 168, 212, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(244, 114, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 72, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 39, 119, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(190, 24, 93, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(157, 23, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
+  }
+
   .xl\:divide-solid > :not([hidden]) ~ :not([hidden]) {
     border-style: solid;
   }
@@ -146783,6 +148873,424 @@ video {
   }
 
   .\32xl\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-transparent > :not([hidden]) ~ :not([hidden]) {
+    border-color: transparent;
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-current > :not([hidden]) ~ :not([hidden]) {
+    border-color: currentColor;
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-black > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(0, 0, 0, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-white > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 250, 251, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(107, 114, 128, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(75, 85, 99, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 65, 81, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(31, 41, 55, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-gray-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(17, 24, 39, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 242, 242, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 226, 226, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 202, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 165, 165, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(248, 113, 113, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 68, 68, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(220, 38, 38, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(185, 28, 28, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(153, 27, 27, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-red-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(127, 29, 29, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(255, 251, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(254, 243, 199, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 230, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 211, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 191, 36, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 158, 11, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(217, 119, 6, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(180, 83, 9, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(146, 64, 14, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-yellow-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(120, 53, 15, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 253, 245, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(209, 250, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 243, 208, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(110, 231, 183, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(52, 211, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(16, 185, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(5, 150, 105, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(4, 120, 87, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 95, 70, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-green-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(6, 78, 59, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(239, 246, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 234, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(191, 219, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(147, 197, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(96, 165, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(59, 130, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(37, 99, 235, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(29, 78, 216, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 64, 175, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-blue-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(30, 58, 138, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(238, 242, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(224, 231, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(199, 210, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(165, 180, 252, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(129, 140, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(99, 102, 241, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(79, 70, 229, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(67, 56, 202, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(55, 48, 163, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-indigo-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(49, 46, 129, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(245, 243, 255, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(237, 233, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(221, 214, 254, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(196, 181, 253, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(167, 139, 250, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(124, 58, 237, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(109, 40, 217, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(91, 33, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-purple-900 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(76, 29, 149, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-50 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(253, 242, 248, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-100 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(252, 231, 243, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-200 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(251, 207, 232, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-300 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(249, 168, 212, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(244, 114, 182, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-500 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(236, 72, 153, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(219, 39, 119, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(190, 24, 93, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-800 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(157, 23, 77, var(--tw-divide-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:divide-pink-900 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
     border-color: rgba(131, 24, 67, var(--tw-divide-opacity));
   }

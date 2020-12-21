@@ -17,9 +17,10 @@ export default function LogIn({ history }) {
         
         async event => {           
             event.preventDefault();
+            const {email,psswd} = event.target.elements;
             try {
-                await auth.signInWithEmailAndPassword(info.email, info.psswd);
-                history.push("/");
+                await auth.signInWithEmailAndPassword(email.value, psswd.value);
+                history.push("/Principal");
             } catch (error) {
                 let errorCode = error.code;
                 if (errorCode === "auth/wrong-password") {
@@ -35,10 +36,10 @@ export default function LogIn({ history }) {
         [history]
     );
 
-    const currentUser = useContext(AuthContext);
+    const {currentUser} = useContext(AuthContext);
 
     if (currentUser) {
-        return <Redirect to="/" />;
+        return <Redirect to="/Principal" />;
     }
 
     const handleInputChange = ({ target }) => {
