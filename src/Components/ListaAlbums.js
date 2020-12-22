@@ -54,12 +54,12 @@ export default function ListaAlbums(props) {
                     <div className="pt-3">
                         <select class="w-64 h-8 bg-blue-900 rounded text-gray-200 focus:outline-none">
                             <optgroup label="Album">
-                                <option onclick={handleOnChange("Album","Ascendente")}>Ascendente ↑</option>
-                                <option onclick={handleOnChange("Album","Descendente")}>Descendente ↓</option>
+                                <option onclick={() =>handleOnChange("Album","Ascendente")}>Ascendente ↑</option>
+                                <option onclick={() =>handleOnChange("Album","Descendente")}>Descendente ↓</option>
                             </optgroup>
                             <optgroup label="Artistas">
-                                <option onclick={handleOnChange("Artista","Ascendente")}>Ascendente ↑</option>
-                                <option onclick={handleOnChange("Artista","Descendente")}>Descendente ↓</option>
+                                <option onclick={() =>handleOnChange("Artista","Ascendente")}>Ascendente ↑</option>
+                                <option onclick={() =>handleOnChange("Artista","Descendente")}>Descendente ↓</option>
                             </optgroup>
                         </select>
                     </div>
