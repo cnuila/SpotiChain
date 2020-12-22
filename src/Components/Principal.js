@@ -3,6 +3,9 @@ import ListaAlbums from './ListaAlbums'
 import Agregar from './Agregar'
 import Album from './ClickAlbum'
 import { auth } from '../firebase'
+import Web3 from 'web3'
+import { ALBUMES_ABI, ALBUMES_ADDRESS } from '../config'
+
 
 export default class Principal extends Component {
 
@@ -11,11 +14,56 @@ export default class Principal extends Component {
         this.state = {
             mostrarAgregar: false,
             mostrarAlbum: false,
+            albumesCont: 0,
+            albumes: [],
         }
+        this.traerAlbumesFiltrado = this.traerAlbumesFiltrado.bind(this)
+    }
+
+    componentWillMount() {
+        this.loadBlockchainData()
+    }
+
+    async loadBlockchainData() {
+        const web3 = new Web3(Web3.givenProvider || "HTTP://127.0.0.1:7545")
+        const network = await web3.eth.net.getNetworkType()
+        const accounts = await web3.eth.getAccounts()
+        const albumesContract = new web3.eth.Contract(ALBUMES_ABI, ALBUMES_ADDRESS)
+
+        const albumesCont = await albumesContract.methods.albumesCont().call()
+        console.log("alubmesCont", albumesCont)
+        for (let i = 1; i <= albumesCont; i++) {
+            const album = await albumesContract.methods.albumes(i).call()
+            //const cancionesCont = await albumesContract.methods.cancionesCont().call()
+            let cancionInicial = album.cancionInicial
+            let cantCanciones = album.totalCanciones
+            let arrayCanciones = []
+            for (let j = cancionInicial; j <= cantCanciones; j++){
+                const cancion = await albumesContract.methods.canciones(j).call()
+                arrayCanciones.push(cancion)
+            }
+            const albumAgregar = {
+                ...album,
+                arrayCanciones
+            }           
+            this.setState({
+                albumes: [...this.state.albumes, album]
+            })
+        }
+        this.setState({
+            albumesContract,
+            albumesCont,
+            account: accounts[0]
+        })
+    }
+
+    traerAlbumesFiltrado(albumes) {
+        this.setState({
+            albumes: albumes
+        })
     }
 
     handlePrincipal = (indice) => {
-        console.log(indice)
         switch (indice) {
             case 1:
                 this.setState({
@@ -41,13 +89,12 @@ export default class Principal extends Component {
     }
 
     render() {
-
-        let { mostrarAgregar, mostrarAlbum } = this.state
-        console.log(mostrarAgregar, mostrarAlbum)
-        let mostrarComponente = <ListaAlbums />
+        let { mostrarAgregar, mostrarAlbum, albumesContract, account, albumes } = this.state
+        let mostrarComponente = <ListaAlbums albumes={albumes} traerAlbumesFiltrado={this.traerAlbumesFiltrado} />
         if (mostrarAgregar) {
-            mostrarComponente = <Agregar />
+            mostrarComponente = <Agregar albumesContract={albumesContract} account={account} />
         }
+        console.log("albumes", albumes)
         if (mostrarAlbum) {
             mostrarComponente = <Album />
         }
@@ -79,7 +126,7 @@ export default class Principal extends Component {
 
                             <div onClick={() => auth.signOut()} className="group flex content-cover pb-4 pl-4 text-gray-400 cursor-default border-transparent" >
                                 <svg className="mt-1 h-6 w-6 inline-flex mr-2 fill-current text-gray-400 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.869 477.869">
-                                    <path d="M153.602 221.868H58.251l56.201-56.201c6.448-6.875 6.101-17.676-.775-24.123-6.569-6.16-16.793-6.156-23.357.008L4.986 226.885A17.067 17.067 0 001.3 245.471a17.077 17.077 0 003.686 5.547l85.333 85.333c6.78 6.548 17.584 6.36 24.132-.42 6.388-6.614 6.388-17.099 0-23.713L58.25 256h95.352v-34.132zM426.669 17.068H204.803c-28.277 0-51.2 22.923-51.2 51.2v153.6h187.733c9.426 0 17.067 7.641 17.067 17.067s-7.641 17.067-17.067 17.067H153.602v153.6c0 28.277 22.923 51.2 51.2 51.2h221.867c28.277 0 51.2-22.923 51.2-51.2V68.268c0-28.277-22.923-51.2-51.2-51.2z"/>
+                                    <path d="M153.602 221.868H58.251l56.201-56.201c6.448-6.875 6.101-17.676-.775-24.123-6.569-6.16-16.793-6.156-23.357.008L4.986 226.885A17.067 17.067 0 001.3 245.471a17.077 17.077 0 003.686 5.547l85.333 85.333c6.78 6.548 17.584 6.36 24.132-.42 6.388-6.614 6.388-17.099 0-23.713L58.25 256h95.352v-34.132zM426.669 17.068H204.803c-28.277 0-51.2 22.923-51.2 51.2v153.6h187.733c9.426 0 17.067 7.641 17.067 17.067s-7.641 17.067-17.067 17.067H153.602v153.6c0 28.277 22.923 51.2 51.2 51.2h221.867c28.277 0 51.2-22.923 51.2-51.2V68.268c0-28.277-22.923-51.2-51.2-51.2z" />
                                 </svg>
                                 <h2 className="pt-1 group-hover:text-white">Sign Out</h2>
                             </div>

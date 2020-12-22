@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ImagenAlbum from './Agregar/ImagenAlbum'
 import ListaCanciones from './Agregar/ListaCanciones'
+import { todosAlbumes } from '../CargarAlbumes'
 
 export default class Agregar extends Component {
 
@@ -9,8 +10,27 @@ export default class Agregar extends Component {
         this.state = {
             nombreAlbum: "",
             canciones: [],
+            loading: false,
+            tempAlbumes: []
         }
         this.cancionesOnChange = this.cancionesOnChange.bind(this)
+    }
+
+    crearAlbum(nombreAlbum, artista) {
+        const { albumesContract, account } = this.props
+        const { canciones } = this.state
+        this.setState({ loading: true })
+        albumesContract.methods.crearAlbum(nombreAlbum, artista).send({ from: account }).once('receipt', (receipt) => {
+            canciones.forEach(cancion => {
+                albumesContract.methods.agregarCancion(cancion.nombreCancion, cancion.genero, cancion.duracion).send({ from: account }).once('receipt', (receipt2) => {
+                    //listo
+                    console.log("listo")      
+                })
+            })
+            this.setState({
+                loading: false
+            })
+        })
     }
 
     inputOnChange = ({ target }) => {
@@ -28,12 +48,19 @@ export default class Agregar extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        console.log("agregar", this.state)
+        const { nombreAlbum } = this.state;
+        this.crearAlbum(nombreAlbum, "Arctic Monkeys")
+        this.setState({
+            ...this.state,
+            nombreAlbum: "",
+            canciones: [],
+            loading: false
+        })
+        console.log("listo")
     }
 
     render() {
-
-        const { canciones } = this.state
+        const { canciones, loading } = this.state
         return (
             <form className="h-full w-full" onSubmit={this.handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-3 w-full h-full">
@@ -51,11 +78,19 @@ export default class Agregar extends Component {
                             <input className="block bg-gray-900 text-sm font-semibold border-b-2 placeholder-white focus:placeholder-gray-400 border-gray-900 focus:border-gray-400 py-1 pt-4 mr-3 mb-2 w-11/12 focus:outline-none" name="nombreAlbum" type="text" placeholder="Nombre del Álbum" required onChange={this.inputOnChange}></input>
                         </div>
 
-                        <div className="flex bg-blue-900 hover:bg-blue-800 rounded-3xl mx-10 mt-5 h-12 items-center shadow-lg cursor-pointer">
-                            <button type="submit" className="mx-1 text-center w-full text-sm font-semibold focus:outline-none text-white text-opacity-90">
-                                Agregar Álbum
+                        {loading
+                            ? <div className="flex bg-green-500 hover:bg-green-600 rounded-3xl mx-10 mt-5 h-12 items-center shadow-lg cursor-pointer">
+                                <button type="submit" className="mx-1 text-center w-full text-sm font-semibold focus:outline-none text-black text-opacity-90">
+                                    Ingresando al BlockChain
                                 </button>
-                        </div>
+                            </div>
+                            :
+                            <div className="flex bg-blue-900 hover:bg-blue-800 rounded-3xl mx-10 mt-5 h-12 items-center shadow-lg cursor-pointer">
+                                <button type="submit" className="mx-1 text-center w-full text-sm font-semibold focus:outline-none text-white text-opacity-90">
+                                    Agregar Álbum
+                                </button>
+                            </div>
+                        }
 
                     </div>
                     <div className="md:col-span-2 bg-gray-800">
